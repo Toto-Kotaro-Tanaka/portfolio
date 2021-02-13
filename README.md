@@ -47,3 +47,9 @@ Main page is dark colour to give users impression of programmer (more backend). 
 
 — Typography —<br>
 **Consolas** is used as main font to give users image of programming
+
+## CREDITS
+
+-   [Mark Otto](https://getbootstrap.com/docs/5.0/examples/cover/) for main frame of index.html
+-   [Jeremy Perkins](https://unsplash.com/@jeremyperkins) for background image
+-   [hovercss](https://github.com/IanLunn/Hover/blob/master/css/hover.css) for push button

@@ -1,9 +1,18 @@
 body {
-    background-color: #343a40;
+    background: url(../img/portfolio-bg.jpg) no-repeat center center fixed;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.opacity {
+    background-color: rgba(52, 58, 64, 0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 /* General */
@@ -21,6 +30,14 @@ a:hover {
     font-family: "Source Code Pro", monospace;
     font-weight: 700;
     padding-bottom: 1.5rem;
+}
+
+#logo a {
+    color: #007acc !important;
+}
+
+#logo a:hover {
+    color: #ffdf00 !important;
 }
 
 .nav a {
