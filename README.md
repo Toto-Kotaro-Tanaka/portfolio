@@ -38,7 +38,7 @@ There are brief details of the project and link to the actual website & GitHub R
 ### Skelton Plane
 
 Mobile first design and there is a wireframe of Home and Project pages for mobile and desktop sizes.
-![Wireframe](https://github.com/Toto-Kotaro-Tanaka/portfolio/blob/main/assets/readme/wireframe.png)
+[Wireframe](https://github.com/Toto-Kotaro-Tanaka/portfolio/blob/main/assets/readme/wireframe.png)
 
 ### Surface Plane
 

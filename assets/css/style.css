@@ -1,71 +1,123 @@
-* {
-    -webkit-box-sizing: border-box;
+body {
+    background-color: #343a40;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/*
- * Globals
- */
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-    color: #333;
-    text-shadow: none; /* Prevent inheritance from `body` */
-}
-
-/*
- * Base structure
- */
-
-body {
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
-}
-
-.cover-container {
-    max-width: 42em;
-}
-
-/*
- * Header
- */
-
-.nav-masthead .nav-link {
-    padding: 0.25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.5);
-    background-color: transparent;
-    border-bottom: 0.25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, 0.25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
-}
-
-.nav-masthead .active {
+/* General */
+a {
     color: #fff;
-    border-bottom-color: #fff;
+    text-decoration: none !important;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+a:hover {
+    color: #ffdf00;
 }
 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+/* Header */
+#logo {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.nav a {
+    padding: 0 1.2rem;
+}
+
+.nav i {
+    font-size: 1.6rem;
+}
+
+#linkedin:hover {
+    color: #0073b1;
+}
+
+#github:hover {
+    color: #24292e;
+}
+
+/* Main */
+h1 {
+    font-family: "Source Code Pro", monospace;
+    font-size: 2.2rem;
+}
+
+#heading-desc {
+    font-family: "Source Code Pro", monospace;
+    font-size: 2.1rem;
+    padding-bottom: 2.5rem;
+}
+
+#main-text {
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1.5rem;
+}
+
+.btn-project {
+    background-color: #ffdf00;
+    border: none;
+    border-radius: 2rem;
+    color: #343a40;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin: 2.2rem auto;
+    padding: 0.5rem 1rem;
+    width: 12rem;
+}
+
+.btn-project,
+.btn-project,
+.btn-project:focus,
+.btn-project:active:focus {
+    background-color: #ffdf00 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Credit: hovercss @ https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+@-webkit-keyframes hvr-push {
+    50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 }
+@keyframes hvr-push {
+    50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.hvr-push {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-push:hover,
+.hvr-push:focus,
+.hvr-push:active {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+/* /End of Credit */
