@@ -50,6 +50,7 @@ Main page is dark colour to give users impression of programmer (more backend). 
 
 ## CREDITS
 
--   [Mark Otto](https://getbootstrap.com/docs/5.0/examples/cover/) for main frame of index.html
--   [Jeremy Perkins](https://unsplash.com/@jeremyperkins) for background image
--   [hovercss](https://github.com/IanLunn/Hover/blob/master/css/hover.css) for push button
+-   [HTML: Mark Otto](https://getbootstrap.com/docs/5.0/examples/cover/) for main frame of index.html
+-   [HTML: Jeremy Perkins](https://unsplash.com/@jeremyperkins) for background image
+-   [CSS: hovercss](https://github.com/IanLunn/Hover/blob/master/css/hover.css) for push button
+-   [JavaScript: Stack Overflow](https://stackoverflow.com/questions/7264974/show-text-letter-by-letter) for heading display
