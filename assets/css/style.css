@@ -138,3 +138,54 @@ h1 {
     animation-iteration-count: 1;
 }
 /* /End of Credit */
+
+/* -- Media Query: Screen Size Bigger Than 48rem / 768px -- */
+@media only screen and (min-width: 48rem) {
+    header {
+        margin: 1.5rem auto 0;
+        position: relative;
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .left-outside {
+        left: 2rem;
+        position: absolute;
+    }
+
+    .left-inside {
+        left: 6rem;
+        position: absolute;
+    }
+
+    .right-inside {
+        right: 7rem;
+        position: absolute;
+    }
+
+    .right-outside {
+        position: absolute;
+        right: 2rem;
+    }
+
+    nav a {
+        margin-top: 0.5rem;
+    }
+}
+
+/* -------------------- Media Query: Screen Size Bigger Than 62rem / 992px -------------------- */
+@media only screen and (min-width: 62rem) {
+    header {
+        width: 80%;
+    }
+
+    .left-inside {
+        left: 8rem;
+        position: absolute;
+    }
+}
