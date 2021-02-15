@@ -50,7 +50,9 @@ Main page is dark colour to give users impression of programmer (more backend). 
 
 ## CREDITS
 
+-   [Image: Nick Nice](https://unsplash.com/@nicknice) for background image
+-   [Image: Created By Myself](https://www.canva.com/) for UFO image
 -   [HTML: Mark Otto](https://getbootstrap.com/docs/5.0/examples/cover/) for main frame of index.html
--   [HTML: Jeremy Perkins](https://unsplash.com/@jeremyperkins) for background image
 -   [CSS: hovercss](https://github.com/IanLunn/Hover/blob/master/css/hover.css) for push button
 -   [JavaScript: Stack Overflow](https://stackoverflow.com/questions/7264974/show-text-letter-by-letter) for heading display
+-   [JavaScript: Stack Overflow](https://stackoverflow.com/questions/10385950/how-to-get-a-div-to-randomly-move-around-a-page-using-jquery-or-css) for UFO
