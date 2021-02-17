@@ -69,6 +69,7 @@ function calcSpeed(prev, next) {
 // Footer Year Auto Update
 $("#copyright").text(new Date().getFullYear());
 
+// Credit: CSS-Tricks @ https://css-tricks.com/bubble-point-tooltips-with-css3-jquery/
 // IIFE to ensure safe use of $
 (function ($) {
     // Create plugin
@@ -143,3 +144,4 @@ $("#copyright").text(new Date().getFullYear());
 })(jQuery);
 
 $("a[title]").tooltips();
+// ---------- /End of Credit ----------
