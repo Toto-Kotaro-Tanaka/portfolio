@@ -1,19 +1,10 @@
 body {
-    background: url(../img/portfolio-bg.jpg) no-repeat center center fixed;
+    background: url(../img/portfolio-bg.png) no-repeat center center fixed;
     box-sizing: border-box;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.opacity {
-    background-color: rgba(52, 58, 64, 0.5);
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
 }
 
 /* General */
@@ -71,7 +62,7 @@ h1 {
 #heading-desc {
     font-family: "Source Code Pro", monospace;
     font-size: 2.1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 #main-text {
@@ -82,6 +73,10 @@ h1 {
 
 .alien {
     width: 1.8rem;
+}
+
+.alien:hover {
+    width: 1.9rem;
 }
 
 .btn-project {
@@ -143,8 +138,8 @@ h1 {
 .hvr-push:active {
     -webkit-animation-name: hvr-push;
     animation-name: hvr-push;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
@@ -203,6 +198,10 @@ h1 {
     h1,
     #heading-desc {
         font-size: 2.7rem;
+    }
+
+    #heading-desc {
+        padding-bottom: 2rem;
     }
 }
 
