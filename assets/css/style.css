@@ -48,6 +48,10 @@ a:hover {
     color: #e84610;
 }
 
+main {
+    margin-top: 5rem;
+}
+
 h1 {
     font-family: "Source Code Pro", monospace;
     font-size: 2.2rem;
@@ -137,6 +141,61 @@ h1 {
 }
 /* /End of Credit */
 
+h5 {
+    color: #c5c5c5;
+    letter-spacing: 0.2rem;
+    margin: 8rem 0 1rem 0;
+}
+
+#technologies p {
+    color: #c5c5c5;
+    display: inline;
+    margin-left: -1rem;
+    padding-right: 1rem;
+}
+
+#technologies i {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+
+.fa-html5 {
+    color: #f06529;
+}
+
+.fa-css3-alt {
+    color: #2965f1;
+}
+
+.fa-js-square {
+    color: #f0db4f;
+}
+
+.fa-bootstrap {
+    color: #563d7c;
+}
+
+.fa-python {
+    color: #4b8bbe;
+    margin-right: 0;
+}
+
+.fa-node-js {
+    color: #68a063;
+}
+
+.fa-python {
+    color: #4b8bbe;
+}
+
+.fa-database {
+    color: #3fa037;
+}
+
+.fa-git-alt {
+    color: #f34f29;
+}
+
 /* UFO */
 .ufo {
     position: fixed;
@@ -152,12 +211,12 @@ h1 {
 .tooltip,
 .arrow:after {
     /* background: #252525; */
-    border: 1px solid white;
+    border: 1px solid #fff;
 }
 
 .tooltip {
     border-radius: 1.5rem;
-    color: white;
+    color: #fff;
     display: inline-block;
     font-size: 1rem;
     font-family: "Source Code Pro", monospace;
