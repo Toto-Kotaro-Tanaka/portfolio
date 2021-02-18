@@ -48,9 +48,9 @@ a:hover {
     color: #e84610;
 }
 
-main {
+/* main {
     margin-top: 5rem;
-}
+} */
 
 h1 {
     font-family: "Source Code Pro", monospace;
@@ -144,14 +144,14 @@ h1 {
 h5 {
     color: #c5c5c5;
     letter-spacing: 0.2rem;
-    margin: 8rem 0 1rem 0;
+    margin-bottom: 1rem;
 }
 
 #technologies p {
     color: #c5c5c5;
     display: inline;
     margin-left: -1rem;
-    padding-right: 1rem;
+    padding-right: 0.95rem;
 }
 
 #technologies i {
@@ -194,6 +194,14 @@ h5 {
 
 .fa-git-alt {
     color: #f34f29;
+}
+
+.fa-github {
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 1rem;
 }
 
 /* UFO */
