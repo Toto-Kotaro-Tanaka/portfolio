@@ -17,9 +17,17 @@ a:hover {
     color: #ffdf00;
 }
 
-/* Header */
-#logo {
+h1,
+h2,
+h5,
+#logo,
+#heading-desc,
+.tooltip {
     font-family: "Source Code Pro", monospace;
+}
+
+/* Header: index.html & project.html */
+#logo {
     font-weight: 700;
     padding-bottom: 1.5rem;
 }
@@ -48,17 +56,12 @@ a:hover {
     color: #e84610;
 }
 
-/* main {
-    margin-top: 5rem;
-} */
-
+/* Main: index.html */
 h1 {
-    font-family: "Source Code Pro", monospace;
     font-size: 2.2rem;
 }
 
 #heading-desc {
-    font-family: "Source Code Pro", monospace;
     font-size: 2.1rem;
     padding-bottom: 1.5rem;
 }
@@ -141,6 +144,75 @@ h1 {
 }
 /* /End of Credit */
 
+/* Credit: CSS-Tricks @ https://css-tricks.com/bubble-point-tooltips-with-css3-jquery/ */
+.tooltip,
+.arrow:after {
+    /* background: #252525; */
+    border: 1px solid #fff;
+}
+
+.tooltip {
+    border-radius: 1.5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    opacity: 0;
+    padding: 0.3rem 1.2rem;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.arrow {
+    /* width: 170px; */
+    /* height: 16px; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* left: 50%; */
+    /* margin-left: -35px; */
+    /* bottom: -16px; */
+}
+
+.arrow:after {
+    /* content: ""; */
+    /* position: absolute; */
+    /* left: 20px; */
+    /* top: -20px; */
+    /* width: 25px; */
+    /* height: 25px; */
+    /* box-shadow: 6px 5px 9px -9px black, 5px 6px 9px -9px black; */
+    /* transform: rotate(45deg); */
+}
+
+.tooltip.active {
+    opacity: 1;
+    margin-top: 0.35rem;
+    transition: all 0.5s ease;
+}
+
+.tooltip.out {
+    opacity: 0.2;
+    margin-top: -1rem;
+}
+/* /End of Credit */
+
+/* UFO: index.html & project.html */
+.ufo {
+    position: fixed;
+    z-index: -1;
+}
+
+.ufo img {
+    width: 6rem;
+}
+
+/* Main: project.html */
+h2 {
+}
+
+/* Footer: index.html & project.html */
 h5 {
     color: #c5c5c5;
     letter-spacing: 0.2rem;
@@ -151,7 +223,8 @@ h5 {
     color: #c5c5c5;
     display: inline;
     margin-left: -1rem;
-    padding-right: 0.95rem;
+    padding: 0 0.95rem 0 0.1rem;
+    vertical-align: top;
 }
 
 #technologies i {
@@ -203,72 +276,6 @@ h5 {
 .copyright {
     margin-top: 1rem;
 }
-
-/* UFO */
-.ufo {
-    position: fixed;
-    z-index: -1;
-}
-
-.ufo img {
-    width: 6rem;
-}
-
-/* Credit: CSS-Tricks @ https://css-tricks.com/bubble-point-tooltips-with-css3-jquery/ */
-/* Hello World */
-.tooltip,
-.arrow:after {
-    /* background: #252525; */
-    border: 1px solid #fff;
-}
-
-.tooltip {
-    border-radius: 1.5rem;
-    color: #fff;
-    display: inline-block;
-    font-size: 1rem;
-    font-family: "Source Code Pro", monospace;
-    margin-top: 1.25rem;
-    opacity: 0;
-    padding: 0.3rem 1.2rem;
-    pointer-events: none;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-}
-
-.arrow {
-    /* width: 170px; */
-    /* height: 16px; */
-    /* overflow: hidden; */
-    /* position: absolute; */
-    /* left: 50%; */
-    /* margin-left: -35px; */
-    /* bottom: -16px; */
-}
-
-.arrow:after {
-    /* content: ""; */
-    /* position: absolute; */
-    /* left: 20px; */
-    /* top: -20px; */
-    /* width: 25px; */
-    /* height: 25px; */
-    /* box-shadow: 6px 5px 9px -9px black, 5px 6px 9px -9px black; */
-    /* transform: rotate(45deg); */
-}
-
-.tooltip.active {
-    opacity: 1;
-    margin-top: 0.35rem;
-    transition: all 0.5s ease;
-}
-
-.tooltip.out {
-    opacity: 0.2;
-    margin-top: -1rem;
-}
-/* /End of Credit */
 
 /* -- Media Query: Screen Size Bigger Than 48rem / 768px -- */
 @media only screen and (min-width: 48rem) {
