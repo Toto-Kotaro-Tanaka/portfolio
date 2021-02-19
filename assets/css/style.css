@@ -17,8 +17,13 @@ a:hover {
     color: #ffdf00;
 }
 
+.active {
+    font-weight: 700;
+}
+
 h1,
 h2,
+h4,
 h5,
 #logo,
 #heading-desc,
@@ -210,6 +215,68 @@ h1 {
 
 /* Main: project.html */
 h2 {
+    font-size: 1.9rem;
+    margin: 2rem 0;
+}
+
+.card {
+    background: transparent;
+    border: 1px solid #fff;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.card a {
+    margin: 1.3rem 0 1rem;
+    text-align: center;
+}
+
+.card img {
+    height: 50%;
+    width: 50%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.list-group li {
+    background-color: rgba(197, 197, 197, 0.1);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.list-group-item {
+    border: none;
+    margin-bottom: 0;
+}
+
+.html,
+.css,
+.bootstrap,
+.js,
+.git,
+.github,
+.python,
+.database {
+    font-size: 1.6rem;
+    padding-right: 0.7rem;
+}
+
+.tec-text {
+    margin: 0.4rem 0 0 0;
+}
+
+.github-repo {
+    text-align: center;
 }
 
 /* Footer: index.html & project.html */
