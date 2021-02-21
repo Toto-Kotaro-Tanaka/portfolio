@@ -227,19 +227,19 @@ h2 {
     text-align: left;
 }
 
-#ms1 {
+.ms1 {
     background-color: rgba(6, 84, 70, 0.2);
 }
 
-#ms2 {
+.ms2 {
     background-color: rgba(0, 122, 204, 0.2);
 }
 
-#ms3 {
+.ms3 {
     background-color: rgba(182, 137, 115, 0.2);
 }
 
-#ms4 {
+.ms4 {
     background-color: rgba(132, 94, 194, 0.2);
 }
 
@@ -289,7 +289,7 @@ h2 {
 .python,
 .database {
     font-size: 1.6rem;
-    padding-right: 0.4rem;
+    padding-right: 0.3rem;
 }
 
 .tec-text {
@@ -423,5 +423,92 @@ h5 {
     .left-inside {
         left: 8rem;
         position: absolute;
+    }
+
+    .ms1-card {
+        width: 55%;
+    }
+
+    .ms2-card {
+        width: 70%;
+    }
+
+    .ms3-card {
+        width: 85%;
+    }
+
+    .ms1,
+    .ms2,
+    .ms3,
+    .ms4 {
+        padding: 0.5rem;
+    }
+
+    .ms1 {
+        background-color: rgba(6, 84, 70, 0.4);
+    }
+
+    .ms2 {
+        background-color: rgba(0, 122, 204, 0.4);
+    }
+
+    .ms3 {
+        background-color: rgba(182, 137, 115, 0.4);
+    }
+
+    .ms4 {
+        background-color: rgba(132, 94, 194, 0.4);
+    }
+
+    .card img {
+        height: 3rem;
+        width: 3.2rem;
+    }
+
+    .card a {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .ms1-card p,
+    .ms2-card p,
+    .ms3-card p,
+    .ms4-card p {
+        display: inline;
+        font-size: 1.2rem;
+        padding-left: 0.7rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .list-group-item {
+        padding-bottom: 0 !important;
+    }
+
+    .html,
+    .css,
+    .bootstrap,
+    .js,
+    .git,
+    .github,
+    .python,
+    .database {
+        font-size: 1.4rem;
+        padding-right: 0.8rem;
+    }
+
+    .tec-text {
+        display: inline;
+        font-size: 0.9rem !important;
+        margin: 0 0.8rem 0 -0.6rem !important;
+    }
+
+    .github-repo {
+        display: inline;
+        position: absolute;
+        right: 0;
     }
 }
