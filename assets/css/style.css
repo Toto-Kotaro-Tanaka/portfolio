@@ -228,19 +228,19 @@ h2 {
 }
 
 .ms1 {
-    background-color: rgba(6, 84, 70, 0.2);
+    background-color: rgba(6, 84, 70, 0.3);
 }
 
 .ms2 {
-    background-color: rgba(0, 122, 204, 0.2);
+    background-color: rgba(0, 122, 204, 0.3);
 }
 
 .ms3 {
-    background-color: rgba(182, 137, 115, 0.2);
+    background-color: rgba(182, 137, 115, 0.3);
 }
 
 .ms4 {
-    background-color: rgba(132, 94, 194, 0.2);
+    background-color: rgba(132, 94, 194, 0.3);
 }
 
 .card-body h4 {
@@ -425,6 +425,11 @@ h5 {
         position: absolute;
     }
 
+    h2 {
+        font-size: 2.5rem;
+        margin: 3rem 0;
+    }
+
     .ms1-card {
         width: 55%;
     }
@@ -444,22 +449,6 @@ h5 {
         padding: 0.5rem;
     }
 
-    .ms1 {
-        background-color: rgba(6, 84, 70, 0.4);
-    }
-
-    .ms2 {
-        background-color: rgba(0, 122, 204, 0.4);
-    }
-
-    .ms3 {
-        background-color: rgba(182, 137, 115, 0.4);
-    }
-
-    .ms4 {
-        background-color: rgba(132, 94, 194, 0.4);
-    }
-
     .card img {
         height: 3rem;
         width: 3.2rem;
@@ -470,22 +459,27 @@ h5 {
         text-align: left;
     }
 
+    .project-title {
+        font-size: 1.2rem;
+        padding-left: 0.7rem;
+    }
+
     .ms1-card p,
     .ms2-card p,
     .ms3-card p,
     .ms4-card p {
         display: inline;
-        font-size: 1.2rem;
-        padding-left: 0.7rem;
     }
 
     .card-title {
-        font-size: 1.2rem;
-        line-height: 1.2rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .list-group-item {
-        padding-bottom: 0 !important;
+        padding-bottom: 0.2rem !important;
     }
 
     .html,
@@ -501,9 +495,8 @@ h5 {
     }
 
     .tec-text {
-        display: inline;
-        font-size: 0.9rem !important;
-        margin: 0 0.8rem 0 -0.6rem !important;
+        font-size: 0.9rem;
+        margin: 0 0.8rem 0 -0.6rem;
     }
 
     .github-repo {
