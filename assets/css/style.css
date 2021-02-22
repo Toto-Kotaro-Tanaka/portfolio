@@ -219,10 +219,26 @@ h2 {
     margin: 2rem 0;
 }
 
+.milestone-desc {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px #c5c5c5;
+    height: 12.5rem;
+    position: absolute;
+    right: 2rem;
+    width: 24rem;
+}
+
+.milestone-desc p {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 1.3rem;
+}
+
 .card {
     background: transparent;
     border: 2px solid #fff;
-    box-shadow: 1px 1px 6px #fff;
+    /* box-shadow: 1px 1px 6px #fff; */
     margin-bottom: 2rem;
 }
 
@@ -472,10 +488,6 @@ h5 {
 
 /* -- Media Query: Screen Size Bigger Than 62rem / 992px -- */
 @media only screen and (min-width: 62rem) {
-    header {
-        width: 80%;
-    }
-
     .left-inside {
         left: 8rem;
         position: absolute;
