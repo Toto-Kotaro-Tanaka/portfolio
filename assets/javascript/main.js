@@ -142,6 +142,3 @@ function calcSpeed(prev, next) {
 
 $("a[title]").tooltips();
 // ---------- /End of Credit ----------
-
-// Footer Year Auto Update
-$("#copyright").text(new Date().getFullYear());

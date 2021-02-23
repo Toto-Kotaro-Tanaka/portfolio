@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Portfolio of Kotaro Toto TANAKA" />
+        <meta name="description" content="Portfolio of Toto Kotaro TANAKA" />
 
         <!-- Bootstrap CDN -->
         <link
@@ -58,26 +58,26 @@
                         class="nav nav-masthead justify-content-center float-md-end"
                     >
                         <a
-                            class="nav-link left-outside"
+                            class="nav-link nav-home"
                             aria-current="page"
                             href="index.html"
                             >home</a
                         >
                         <a
-                            class="nav-link active left-inside"
+                            class="nav-link active nav-project"
                             href="project.html"
                             >project</a
                         >
                         <a
                             id="linkedin"
-                            class="nav-link right-inside"
+                            class="nav-link nav-linkedin"
                             href="https://www.linkedin.com/in/toto-kotaro-tanaka/"
                             target="_blank"
                             ><i class="fab fa-linkedin"></i
                         ></a>
                         <a
                             id="github"
-                            class="nav-link right-outside"
+                            class="nav-link nav-github"
                             href="https://github.com/Toto-Kotaro-Tanaka"
                             target="_blank"
                             ><i class="fab fa-github-square"></i
@@ -267,12 +267,12 @@
                 </div>
                 <div class="milestone-desc d-none d-lg-block">
                     <p>
-                        What is milestone project? <br /><br />this is the
-                        project i did during my study in
+                        what is milestone project? <br /><br />the project i did
+                        on my own during my study in
                         <a href="https://codeinstitute.net/" target="_blank">
                             Code Institute</a
                         >
-                        in Ireland on my owen
+                        in Ireland
                     </p>
                 </div>
                 <div class="card ms1-card">
@@ -455,8 +455,9 @@
             integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
             crossorigin="anonymous"
         ></script>
-        <!-- Main JavaScript -->
-        <script src="assets/javascript/main.js"></script>
+        <script>
+            $("#copyright").text(new Date().getFullYear());
+        </script>
     </body>
     <!-- /End of Credit Main Frame -->
 </html>

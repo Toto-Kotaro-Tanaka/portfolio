@@ -375,6 +375,11 @@ h5 {
     margin-top: 1rem;
 }
 
+/* .copyright a {
+    position: absolute;
+    right: 5rem;
+} */
+
 /* -- Media Query: Screen Size Bigger Than 48rem / 768px -- */
 @media only screen and (min-width: 48rem) {
     header {
@@ -389,22 +394,22 @@ h5 {
         width: 100%;
     }
 
-    .left-outside {
+    .nav-home {
         left: 2rem;
         position: absolute;
     }
 
-    .left-inside {
+    .nav-project {
         left: 6rem;
         position: absolute;
     }
 
-    .right-inside {
+    .nav-linkedin {
         right: 7rem;
         position: absolute;
     }
 
-    .right-outside {
+    .nav-github {
         position: absolute;
         right: 2rem;
     }
@@ -488,7 +493,7 @@ h5 {
 
 /* -- Media Query: Screen Size Bigger Than 62rem / 992px -- */
 @media only screen and (min-width: 62rem) {
-    .left-inside {
+    .nav-project {
         left: 8rem;
         position: absolute;
     }

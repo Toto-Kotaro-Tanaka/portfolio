@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Portfolio of Kotaro Toto TANAKA" />
+        <meta name="description" content="Portfolio of Toto Kotaro TANAKA" />
 
         <!-- Bootstrap CDN -->
         <link
@@ -43,7 +43,7 @@
     </head>
 
     <!-- Credit: Main Frame @ https://getbootstrap.com/docs/5.0/examples/cover/ -->
-    <body class="d-flex h-100 text-center">
+    <body class="d-flex vh-100 text-center">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <div class="ufo d-none d-md-inline">
                 <img src="./assets/img/ufo.png" alt="UFO" />
@@ -64,24 +64,24 @@
                         class="nav nav-masthead justify-content-center float-md-end"
                     >
                         <a
-                            class="nav-link active left-outside"
+                            class="nav-link active nav-home"
                             aria-current="page"
                             href="index.html"
                             >home</a
                         >
-                        <a class="nav-link left-inside" href="project.html"
+                        <a class="nav-link nav-project" href="project.html"
                             >project</a
                         >
                         <a
                             id="linkedin"
-                            class="nav-link right-inside"
+                            class="nav-link nav-linkedin"
                             href="https://www.linkedin.com/in/toto-kotaro-tanaka/"
                             target="_blank"
                             ><i class="fab fa-linkedin"></i
                         ></a>
                         <a
                             id="github"
-                            class="nav-link right-outside"
+                            class="nav-link nav-github"
                             href="https://github.com/Toto-Kotaro-Tanaka"
                             target="_blank"
                             ><i class="fab fa-github-square"></i
@@ -99,7 +99,7 @@
                         <a
                             href="#cv"
                             target="_blank"
-                            title="hello world - click me for my cv"
+                            title="hello world - download my cv"
                             ><img
                                 class="alien hvr-push"
                                 src="./assets/img/alien.png"
@@ -132,6 +132,7 @@
                 </div>
                 <p class="copyright">
                     &copy; toto tanaka <span id="copyright"></span>
+                    <!-- <a href="#"><i class="far fa-envelope"></i></a> -->
                 </p>
             </footer>
         </div>
@@ -143,6 +144,9 @@
         ></script>
         <!-- Main JavaScript -->
         <script src="assets/javascript/main.js"></script>
+        <script>
+            $("#copyright").text(new Date().getFullYear());
+        </script>
     </body>
     <!-- /End of Credit Main Frame -->
 </html>
