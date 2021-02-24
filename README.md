@@ -1,11 +1,9 @@
-<!--- Logo image on here --->
+![image](https://github.com/Toto-Kotaro-Tanaka/portfolio/blob/main/assets/readme/toto-tanaka-logo.png)
 
-<!--- Add link on below --->
+# [PORTFOLIO](https://toto-kotaro-tanaka.github.io/portfolio/)
 
-# PORTFOLIO
-
-This is a portfolio website of me, Kotaro (Toto) TANAKA. I create this in order to promote myself to get a job in the programming industry where I would like to work.<br>
-It is mobile responsive website, and the website is available on HERE. <!--- Link on HERE --->
+This is a portfolio website of me, Kotaro (Toto) TANAKA. I create this to keep all of my projects that I've created on my own during the study of **Full Stack Software Development** in [Code Institute](https://codeinstitute.net/), Ireland.
+The live site is available **[HERE]**(https://toto-kotaro-tanaka.github.io/portfolio/).
 
 ## USER & OWNER STORIES
 
@@ -48,6 +46,20 @@ Main page is dark colour to give users impression of programmer (more backend). 
 — Typography —<br>
 **Consolas** is used as main font to give users image of programming
 
+## TECHNOLOGIES USED
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+-   [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript) for interaction
+-   [Google Fonts](https://fonts.google.com/) for fonts
+-   [Bootstrap4](https://getbootstrap.com/) (css framework) for main frame of the website
+-   [Font Awesome](https://fontawesome.com/) for icons
+-   [jQuery](https://jquery.com/) (JavaScript library) for more efficient coding
+-   [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) for testing, style checking and debugging
+-   [Visual Studio Code](https://code.visualstudio.com/) as Integrated Development Environment (IDE)
+-   [Git](https://git-scm.com/) for local version control, keeping the files and documents
+-   [GitHub](https://github.com/) for online version control, keeping the files, documents and deploying the website
+
 ## CREDITS
 
 -   [Image: Nick Nice](https://unsplash.com/@nicknice) for background image
@@ -56,5 +68,5 @@ Main page is dark colour to give users impression of programmer (more backend). 
 -   [CSS: CSS-Tricks](https://css-tricks.com/bubble-point-tooltips-with-css3-jquery/) for hello world bubble tooltips
 -   [CSS: hovercss](https://github.com/IanLunn/Hover/blob/master/css/hover.css) for push button
 -   [JavaScript: Stack Overflow](https://stackoverflow.com/questions/7264974/show-text-letter-by-letter) for heading display
--   [JavaScript: Stack Overflow](https://stackoverflow.com/questions/10385950/how-to-get-a-div-to-randomly-move-around-a-page-using-jquery-or-css) for UFO
--   [JavaScript: CSS-Tricks](https://css-tricks.com/bubble-point-tooltips-with-css3-jquery/) for hello world bubble tooltips
+-   [JavaScript: Stack Overflow](https://stackoverflow.com/questions/10385950/how-to-get-a-div-to-randomly-move-around-a-page-using-jquery-or-css) for flying UFO
+-   [JavaScript: CSS-Tricks](https://css-tricks.com/bubble-point-tooltips-with-css3-jquery/) for displaying "hello world" bubble tooltips
