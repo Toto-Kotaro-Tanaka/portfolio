@@ -170,27 +170,6 @@ h1 {
     text-decoration: none;
 }
 
-.arrow {
-    /* width: 170px; */
-    /* height: 16px; */
-    /* overflow: hidden; */
-    /* position: absolute; */
-    /* left: 50%; */
-    /* margin-left: -35px; */
-    /* bottom: -16px; */
-}
-
-.arrow:after {
-    /* content: ""; */
-    /* position: absolute; */
-    /* left: 20px; */
-    /* top: -20px; */
-    /* width: 25px; */
-    /* height: 25px; */
-    /* box-shadow: 6px 5px 9px -9px black, 5px 6px 9px -9px black; */
-    /* transform: rotate(45deg); */
-}
-
 .tooltip.active {
     opacity: 1;
     margin-top: 0.35rem;
@@ -233,13 +212,12 @@ h2 {
 .milestone-desc p {
     font-size: 1.3rem;
     margin: 0;
-    padding: 1.3rem;
+    padding: 1.7rem 1.3rem 1.3rem 1.3rem;
 }
 
 .card {
     background: transparent;
     border: 2px solid #fff;
-    /* box-shadow: 1px 1px 6px #fff; */
     margin-bottom: 2rem;
 }
 
@@ -252,7 +230,7 @@ h2 {
 }
 
 .ms3 {
-    background-color: rgba(182, 137, 115, 0.3);
+    background-color: rgba(234, 191, 159, 0.3);
 }
 
 .ms4 {
@@ -294,6 +272,11 @@ h2 {
     margin-bottom: 0;
 }
 
+.result {
+    color: #007acc;
+    font-weight: bold;
+}
+
 .html,
 .css,
 .bootstrap,
@@ -304,6 +287,11 @@ h2 {
 .database {
     font-size: 1.6rem;
     padding-right: 0.3rem;
+}
+
+.mdb {
+    font-size: 2rem;
+    padding: 0 0.3rem;
 }
 
 .tec-text {
@@ -321,14 +309,18 @@ h5 {
 #technologies p {
     color: #c5c5c5;
     display: inline;
-    margin-left: -1rem;
+    margin-left: -0.7rem;
     padding: 0 0.95rem 0 0.1rem;
     vertical-align: top;
 }
 
 #technologies i {
     font-size: 1.4rem;
-    margin-right: 1rem;
+    margin-right: 0.7rem;
+}
+
+.github-mr {
+    margin-right: 0 !important;
 }
 
 .fa-html5 {
@@ -345,6 +337,10 @@ h5 {
 
 .fa-bootstrap {
     color: #845ec2;
+}
+
+.fa-mdb {
+    color: #3f51b5;
 }
 
 .fa-python {

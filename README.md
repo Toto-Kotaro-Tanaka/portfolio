@@ -3,7 +3,7 @@
 # [PORTFOLIO](https://toto-kotaro-tanaka.github.io/portfolio/)
 
 This is a portfolio website of me, Kotaro (Toto) TANAKA. I create this to keep all of my projects that I've created on my own during the study of **Full Stack Software Development** in [Code Institute](https://codeinstitute.net/), Ireland.
-The live site is available **[HERE]**(https://toto-kotaro-tanaka.github.io/portfolio/).
+The live site is available **[HERE](https://toto-kotaro-tanaka.github.io/portfolio/)**.
 
 ## USER & OWNER STORIES
 
@@ -27,9 +27,9 @@ Navigation bar with logo, links to Project page, LinkedIn and GitHub
 
 ### Structure Plane
 
-The website consists of 2 pages (sections). One is Home and other one is Project.
+The website consists of 2 pages (sections). One is Home and other one is Project.<br>
 **Home**<br>
-There is a hero image with brief introduction about myself. There are also the technologies that I can use.
+There is a hero image with brief introduction about myself. There are also the technologies that I can use.<br>
 **Project**<br>
 There are brief details of the project and link to the actual website & GitHub README page.
 
