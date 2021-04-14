@@ -215,6 +215,11 @@ h2 {
     padding: 1.7rem 1.3rem 1.3rem 1.3rem;
 }
 
+.ci {
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
 .card {
     background: transparent;
     border: 2px solid #fff;
@@ -460,6 +465,11 @@ h5 {
         margin-bottom: 1rem;
     }
 
+    .position-right {
+        position: absolute;
+        right: 1rem;
+    }
+
     .list-group li {
         background-color: transparent;
     }
@@ -467,6 +477,7 @@ h5 {
     .html,
     .css,
     .bootstrap,
+    .mdb,
     .js,
     .git,
     .github,
