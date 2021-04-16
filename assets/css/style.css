@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
-    background: url(../img/portfolio-bg.png) no-repeat center center fixed;
-    box-sizing: border-box;
+    background-image: url(../img/portfolio-bg.png);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -45,10 +53,6 @@ h5,
     color: #ffdf00 !important;
 }
 
-.nav a {
-    padding: 0 1.2rem;
-}
-
 .nav i {
     font-size: 1.6rem;
 }
@@ -57,7 +61,7 @@ h5,
     color: #0073b1;
 }
 
-#github:hover {
+#github:hover, .github-repo a:hover {
     color: #e84610;
 }
 
@@ -132,7 +136,8 @@ h1 {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 .hvr-push:hover,
@@ -173,6 +178,8 @@ h1 {
 .tooltip.active {
     opacity: 1;
     margin-top: 0.35rem;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -201,7 +208,8 @@ h2 {
 .milestone-desc {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 7rem;
-    box-shadow: 0.1rem 0.1rem 1.3rem #c5c5c5;
+    -webkit-box-shadow: 0.1rem 0.1rem 1.3rem #ffcbcb;
+            box-shadow: 0.1rem 0.1rem 1.3rem #ffcbcb;
     color: #e7e7de;
     height: 12.5rem;
     position: absolute;
@@ -275,6 +283,8 @@ h2 {
 .list-group-item {
     border: none;
     margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .result {
@@ -376,11 +386,6 @@ h5 {
 .copyright {
     margin-top: 1rem;
 }
-
-/* .copyright a {
-    position: absolute;
-    right: 5rem;
-} */
 
 /* -- Media Query: Screen Size Bigger Than 48rem / 768px -- */
 @media only screen and (min-width: 48rem) {

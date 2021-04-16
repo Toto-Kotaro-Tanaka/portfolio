@@ -1,4 +1,4 @@
-"use strict";
+/*jshint esversion: 6 */
 
 // Credit: Stack Overflow @ https://stackoverflow.com/questions/7264974/show-text-letter-by-letter
 // Showing Main Heading Name

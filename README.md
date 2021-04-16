@@ -7,7 +7,7 @@ The live site is available **[HERE](https://toto-kotaro-tanaka.github.io/portfol
 
 ## USER & OWNER STORIES
 
-Users are potential employers, or people who may link me with them. Owner is me, Kotaro (Toto) TANAKA who would like to promote myself by providing all the projects that I create on my own during the study in Code Institute and try to engage with as many people as possible to get a job in the programming industry. There is a link to Linkedin, where users can know about my study & work histories as well as the skills. There is a link to GitHub page where I also have some works from the study in Code Institute as well as by self-study.
+Users are potential employers, or people who may link me with them. Owner is me, Kotaro (Toto) TANAKA who would like to promote myself by providing all the projects that I created during the study at Code Institute, and try to engage with as many people as possible to get a job in the programming industry. There is a link to Linkedin, where users can know about my study & work histories as well as the skills. There is a link to GitHub page where I also have some works from the study at Code Institute as well as by self-study.
 
 ## UX 5 PLANES
 
