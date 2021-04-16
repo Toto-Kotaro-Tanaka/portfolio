@@ -25,7 +25,7 @@ const showHeadingDesc = function (target, message, index, interval) {
     }, 3800);
 };
 
-showHeadingDesc("#heading-desc", "a full stack developer...", 0, 200);
+showHeadingDesc("#heading-desc", "a full stack developer...(tbc)", 0, 200);
 // ---------- /End of Credit ----------
 
 // Credit: Stack Overflow @ https://stackoverflow.com/questions/10385950/how-to-get-a-div-to-randomly-move-around-a-page-using-jquery-or-css
