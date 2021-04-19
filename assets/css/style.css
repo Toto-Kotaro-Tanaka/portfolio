@@ -62,7 +62,8 @@ h5,
 }
 
 #github:hover,
-.github-repo a:hover {
+.github-repo a:hover,
+.ci:hover {
     color: #e84610;
 }
 
