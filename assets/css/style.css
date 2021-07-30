@@ -249,7 +249,7 @@ h2 {
 }
 
 .ms4 {
-    background-color: rgba(255, 223, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .card-body h4 {
@@ -306,6 +306,8 @@ h2 {
 .git,
 .github,
 .python,
+.stripe,
+.aws,
 .database {
     font-size: 1.6rem;
     padding-right: 0.3rem;
@@ -384,6 +386,14 @@ h5 {
 
 .fa-database {
     color: #3fa037;
+}
+
+.stripe {
+    color: #635bff;
+}
+
+.aws {
+    color: #ec7211;
 }
 
 .fa-git-alt {
